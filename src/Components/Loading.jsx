@@ -1,14 +1,14 @@
-import { ActivityIndicator, StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import {ActivityIndicator, StyleSheet, Text, View} from 'react-native';
+import React from 'react';
 
-const Loading = (props) => {
+const Loading = props => {
   return (
-    <View className= 'flex-1 justify-center items-center'>
-        <ActivityIndicator {...props}/>
+    <View className="flex-1 justify-center items-center">
+      <ActivityIndicator {...props} />
     </View>
-  )
-}
+  );
+};
 
-export default Loading
+export default Loading;
 
-const styles = StyleSheet.create({})
+const styles = StyleSheet.create({});
